@@ -1,0 +1,57 @@
+ .App {
+  margin: 80px auto;
+  background-color: #282c34;
+  width: 800px;
+  height: 60vh;
+  
+  /* background: url(./logo.svg) no-repeat, #282c34; */
+}
+
+.Nav-bar {
+  background-color: #14171c;
+  min-height: 8vh;
+  align-items: left;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: rgb(193, 188, 206);
+}
+
+.Nav-logo {
+  height: 4vmin;
+  margin-top: 2vh;
+  pointer-events: none;
+}
+
+
+.React-facts {
+  color: #61dafb;
+  margin-top: 2vh;
+}
+.Nav-bar {
+  display: flex;
+  font-size: 18px;
+}
+.Logo-section{
+  display: flex;
+}
+.Right {
+  margin-left: 55%;
+  margin-top: 2vh;
+}
+
+.Content-body {
+  color: white;
+  margin-left: 30px;
+}
+
+.Content-list li {
+  line-height: 30px;
+}
+.Content-list{
+  list-style: none;
+}
+.Content-list li::before{
+  content: "•";
+  color: #61dafb;
+  margin-right: 1em;
+}
